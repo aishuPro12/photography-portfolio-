@@ -1,0 +1,83 @@
+@import url('https:/fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  font-family: 'Poppins', Sans-Serif;
+}
+
+body 
+{
+  
+  background:white;
+}
+
+.logo {
+  text-align: center;
+  color: #0e1538;
+  font-size: 3vh;
+}
+
+.bhashan {
+  position: absolute;
+  padding: 1vh;
+  background:linear-gradient(315deg ,#00ccff ,#0e1538 ,#d400d4);
+  transform: skew(-2.5deg);
+  transition-duration:2s;
+}
+
+.bhashan p {
+  padding:1vh;
+  overflow: auto;
+  border: 2vh;
+  height:40vh;
+  width:40vh;
+  color :#0e1538;
+  transform: skew(2.5deg);
+  font-size: 1.7vh;
+  text-align: center;
+  transition-duration : 1.8s;
+  background-color:cyan;
+}
+
+.box {
+  position: absolute;
+  Left:10%;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+ flex-wrap: wrap;
+}
+
+
+.bhashan:hover {
+  position: relative;
+  padding: 3vh;
+  background:linear-gradient(-315deg ,#d400d4 ,#0e1538 ,#00ccff);
+  transform:skew(5deg);
+  
+  
+}
+
+.bhashan p:hover {
+  font-size:2vh;
+  transform: skew(-5deg);
+  transition-duration: 2s;
+  text-shadow: 0px 0px 6px black;
+   color: white;
+   background-color:cyan;
+}
+
+img {
+  width:15vh;
+  height:15vh;
+  resize: auto;
+  padding:1px;
+  border-radius: 2px;
+}
+
+.vyasan {
+  text-align: center;
+}
