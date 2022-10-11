@@ -8,9 +8,9 @@
   font-family: 'Poppins', Sans-Serif;
 }
 
-body 
+body
 {
-  
+  transition-duration:3s;
   background:#b6c199;
 }
 
@@ -19,9 +19,10 @@ hr {
 }
 .logo {
   
-  text-align: center;
+  text-align: right;
   color: white;
-  font-size: 3vh;
+  font-size: 4vh;
+ 
 }
 
 .bhashan {
@@ -30,6 +31,7 @@ hr {
   background:linear-gradient(315deg ,#00ccff ,#0e1538 ,#d400d4);
   transform: skew(-2.5deg);
   transition-duration:2s;
+  
 }
 
 .bhashan p {
@@ -42,13 +44,14 @@ hr {
   transform: skew(2.5deg);
   font-size: 1.7vh;
   text-align: center;
+  
   transition-duration : 1.8s;
   background-color:cyan;
 }
 
 .box {
   position: absolute;
-  Left:6%;
+  Left:3%;
   top: 28%;
   display: flex;
   flex-direction: column;
@@ -69,9 +72,10 @@ hr {
   font-size:2vh;
   transform:  skew(-2.5deg);
   transition-duration: 2s;
-  text-shadow: 0px 0px 6px black;
+  text-shadow: 0px 0px 5px black;
    color: white;
-   background-color:cyan;
+   
+   background-color:#c8b7A6;
 }
 
 img {
@@ -84,6 +88,7 @@ img {
 
 .vyasan {
   text-align: center;
+  font-size: 1.5vh;
 }
 
 footer {
@@ -94,5 +99,41 @@ footer {
   background-color:grey;
   opacity:40%;
   resize: auto;
+  font-size: 1.5vh;
   
+}
+
+.drk {
+  position: absolute;
+  left: 0%;
+  top: 1%;
+  background-color: grey;
+  color: white;
+}
+.drk:hover {
+  position: absolute;
+  left: 0%;
+  top: 1%;
+  background-color: white;
+  color: black;
+}
+.lght {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  background-color:#b6c199;
+  color:#0e1538;
+}
+.lght:hover {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  background-color: white;
+  color:#0e1538;
+}
+
+button {
+  min-height: 3vh;
+  min-width:6vh;
+  border-radius: 2rem;
 }

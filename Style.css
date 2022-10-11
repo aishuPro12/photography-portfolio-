@@ -9,7 +9,8 @@ Responsive Image gallery Style rules
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color:#b6c199;
+  background-color:#b6c199; 
+ transition-duration:1.8s;
 }
 
 .container {
@@ -80,4 +81,40 @@ body {
 /* hover */
 .image-item:hover .overlay {
   transform: scale(1);
+}
+
+
+.drk {
+  position: absolute;
+  left: 0%;
+  top: 1%;
+  background-color: grey;
+  color: white;
+}
+.drk:hover {
+  position: absolute;
+  left: 0%;
+  top: 1%;
+  background-color: white;
+  color: black;
+}
+.lght {
+  position: absolute;
+  left: 24%;
+  top: 1%;
+  background-color:#b6c199;
+  color:#0e1538;
+}
+.lght:hover {
+  position: absolute;
+  left: 24%;
+  top: 1%;
+  background-color: white;
+  color:#0e1538;
+}
+
+button {
+    min-height: 3vh;
+  min-width:6vh;
+  border-radius: 2rem;
 }
