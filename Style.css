@@ -9,6 +9,7 @@ Responsive Image gallery Style rules
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color:#b6c199;
 }
 
 .container {
@@ -17,11 +18,12 @@ body {
 
 .heading-text {
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .heading-text span {
   font-weight: 100;
+  
 }
 
 /* Responsive image gallery rules begin*/
