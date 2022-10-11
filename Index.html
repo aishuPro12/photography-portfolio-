@@ -20,7 +20,7 @@
   <br>
    <p class="vyasan"> It all started with a dream... dream to show the world what i see.</p>
   <div class="box">
-    <div class="bhashan"> <p>.... Introduction .... <br> ___________________________ <br><br> Hi i am Aishu. A photographer who just jumped into the field. although i am a bit noob, i know some technical knowledge about photography and i can take eye catching photos i hope. my Instagram is @aishupro_photography. please<a href="work.html">check my work</a> if you can it will be pleasure to me. <br> <br> touch me if you cant read properly</p> </div>
+    <div class="bhashan"> <p>.... Introduction .... <br> ___________________________ <br><br> Hi i am Aishu. A photographer who just jumped into the field. although i am a bit noob, i know some technical knowledge about photography and i can take eye catching photos i hope. my Instagram is @aishupro_photography. please<a href="work.html" onclick="myVibrate()">check my work</a> if you can it will be pleasure to me. <br> <br> <br>touch here if you cant read properly</p> </div>
      
 </div>
  
@@ -29,9 +29,16 @@
   
   function myLight() {
     document.body.style.background = "#b6c199";
+    window.navigator.vibrate(90); // vibrate for 90ms
   }
   function myDark() {
     document.body.style.background = "grey";
+    window.navigator.vibrate(90); // vibrate for 90ms
+  }
+  
+  function myVibrate() {
+    window.navigator.vibrate(30);
+    
   }
 
  

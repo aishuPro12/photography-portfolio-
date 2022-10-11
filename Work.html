@@ -47,18 +47,25 @@
 
       </div>
     </div>
-     <h2 class="heading-text"> → @aishupro_photography <span><a href="index.html">go back</a></span></h2>
+     <h2 class="heading-text"> → @aishupro_photography <span><a href="index.html" onclick="myVibrate()">go back</a></span></h2>
      <script>
      function myLight() {
     document.body.style.background = "#b6c199";
     document.body.style.color = "black";
+    window.navigator.vibrate(90); // vibrate for 90ms
   }
   function myDark() {
     document.body.style.background = "grey";
     document.body.style.color = "white";
+    window.navigator.vibrate(90); // vibrate for 90ms
+  }
+  function myVibrate() {
+    window.navigator.vibrate(30);
+    
   }
   </script>
     <button class="drk" type="button" onclick="myDark()">dark mode</button>
     <button class="lght" type="button" onclick="myLight()">light mode</button>
+    
   </body>
 </html>
