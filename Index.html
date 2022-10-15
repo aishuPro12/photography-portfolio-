@@ -16,11 +16,8 @@
   <br>
   <div class="logo">Aishu_Dhomane_</div><br>
   <hr>
-
-  <br>
-   <p class="vyasan"> It all started with a dream... dream to show the world what i see.</p>
   <div class="box">
-    <div class="bhashan"> <p>.... Introduction .... <br> ___________________________ <br><br> Hi i am Aishu. A photographer who just jumped into the field. although i am a bit noob, i know some technical knowledge about photography and i can take eye catching photos i hope. my Instagram is @aishupro_photography. please<a href="work.html" onclick="myVibrate()">check my work</a> if you can it will be pleasure to me. <br> <br> <br>touch here if you cant read properly</p> </div>
+    <div class="bhashan"> <p>.... Introduction .... <br> ___________________________ <br><br> Hi i am Aishu. A photographer who just jumped into the field. although i am a bit noob, i know some technical knowledge about photography and i can take eye catching photos i hope... my interest range from astrophotography to wildlife photography to macro and object photography.I also do some coding stuff... for example this website is made by me. my Instagram is @aishupro_photography. please<a href="work.html" onclick="myVibrate()">check my work</a> if you can , it will be pleasure to me... <br> <br> <br>touch here if you cant read properly</p> </div>
      
 </div>
  
@@ -40,10 +37,36 @@
     window.navigator.vibrate(30);
     
   }
+  
+  
+  function updatemenu() {
+  if (document.getElementById('responsive-menu').checked == true) {
+    document.getElementById('menu').style.borderBottomRightRadius = '0';
+    document.getElementById('menu').style.borderBottomLeftRadius = '0';
+  }else{
+    document.getElementById('menu').style.borderRadius = '10px';
+  }
+}
+
 
  
   </script>
-    <button class="drk" type="button" onclick="myDark()">dark mode</button>
-    <button class="lght" type="button" onclick="myLight()">light mode</button>
+    
+
+    
+    
+    
+    
+    <nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a ><button class="drk" type="button" onclick="myDark()">dark mode</bbutton</a></li>
+    <li>  <a>  <button class="lght" type="button" onclick="myLight()">light mode</button></a></li>
+   <li><a href="https://wa.me/+919403594167"onclick="myVibrate()">contact me</a></li>
+  </ul>
+</nav>
+    
+    
+    
     
 </body>
